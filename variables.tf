@@ -6,6 +6,10 @@ variable "availability_zone" {
   default = "us-east-1a"
 }
 
+variable "environment" {
+  default = "dev"
+}
+
 variable "ami_id" {
   description = "The AMI ID for the Jenkins instance"
 }
